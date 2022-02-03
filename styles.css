@@ -93,12 +93,12 @@
 }
 
 .button:hover {
-  background: #eba832;
+  background: #000000;
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #eba832;
+  color: #2E5A88;
   transition: all 0.3s ease;
 }
 
