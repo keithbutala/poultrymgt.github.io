@@ -88,12 +88,12 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #2E5A88;
   color: #fff;
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #eba832;
   transition: all 0.3s ease;
 }
 
