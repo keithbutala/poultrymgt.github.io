@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #eba832;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -31,8 +31,7 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #fff;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -61,7 +60,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,7 +127,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #fffdd0;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
