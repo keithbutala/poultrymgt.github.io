@@ -199,7 +199,7 @@
 
 /* Main Content CSS */
 .main {
-  background-color: #141414;
+  background-color: #fffdd0;
 }
 
 .main__container {
@@ -209,7 +209,7 @@
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #131313;
+  background-color: #fffdd0;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
