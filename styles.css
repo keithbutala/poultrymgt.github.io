@@ -632,7 +632,7 @@
 	width:200px;
 	heigth:60px;
 }
-.email-form h2{
+.email-form > h2{
 	color: #fff;
 }
  .article{
@@ -659,7 +659,7 @@ clear: both;
 margin: 5px;
 padding: 5px;
 width: 80%;
-background-color: #FFA500;
+background: #FFA500;
 }
 .column3 {
 margin-right: 0%;
