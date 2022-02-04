@@ -665,3 +665,10 @@ background-color: #fffdd0;
 .column3 {
 margin-right: 0%;
 }
+info p{
+	font-family: Georgia, Times, serif;
+	font-size: 1.0em;
+	line-height: 1.4em;
+	letter-spacing: 0.2em;
+	text-align: justify;
+}
