@@ -672,3 +672,15 @@ info p{
 	letter-spacing: 0.2em;
 	text-align: justify;
 }
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
