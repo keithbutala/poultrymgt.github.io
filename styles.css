@@ -624,10 +624,10 @@
 	 background: #2E5A88
 }
 .footer-button:hover {
-  background: #FFA500;
+  background: #000000;
   transition: all 0.3s ease;
 }
-#footer-email{
+.footer-email{
 	margin: 1rem;
 	width:200px;
 	heigth:60px;
