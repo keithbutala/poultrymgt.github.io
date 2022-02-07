@@ -514,8 +514,9 @@ input[type=submit]:hover {
 }
 .form_container{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
+  background-color: #fffdd0;
 }
 
 
