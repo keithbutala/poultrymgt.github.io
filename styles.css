@@ -512,6 +512,11 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+.form_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 
 
