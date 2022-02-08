@@ -479,6 +479,31 @@
     width: 300px;
   }
 }
+/* ......... info .............*/
+.info{
+display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fffdd0;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #fffdd0;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 /*form here*/
 .span{
    margin-top: 1rem;
