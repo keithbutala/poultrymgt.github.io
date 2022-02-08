@@ -491,6 +491,13 @@ padding: 10px;
 border: 12px;
 margin: 2rem;
 }
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
 
 input[type=submit]  {
   background-color: #4CAF50;
@@ -517,6 +524,7 @@ input[type=submit]:hover {
   justify-content: center;
   flex-wrap: wrap;
   background-color: #fffdd0;
+  width: 100%;
 }
 
 
