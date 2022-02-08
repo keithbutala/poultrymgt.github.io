@@ -480,8 +480,8 @@
   }
 }
 /* ......... info .............*/
-.info{
-display: flex;
+.info_container{
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background-color: #fffdd0;
