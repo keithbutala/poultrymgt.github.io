@@ -589,6 +589,10 @@ background-color: #fffdd0;
 	display: flex;
 	flex-wrap: wrap;
 }
+.sample{
+	padding: 10px;
+	border: 10px;
+}
 .container {
   border: 2px solid #ccc;
   background-color: #fff;
@@ -624,6 +628,15 @@ background-color: #fffdd0;
       display: block;
   }
 }
+
+
+.img_intro{
+	position: relative;
+}
+
+
+
+
 
 /*form here*/
 .span{
