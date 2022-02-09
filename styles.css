@@ -633,8 +633,15 @@ background-color: #fffdd0;
 .img_intro{
 	position: relative;
 }
+.intel{
+  background-color: #fffdd0;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
 
-
+}
 
 
 
