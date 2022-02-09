@@ -631,6 +631,8 @@ background-color: #fffdd0;
 
 .img_intro{
 	position: relative;
+	 border-radius: 15px 50px 30px;
+ 	 padding: 20px;  
 }
 .intel{
   background-color: #fffdd0;
