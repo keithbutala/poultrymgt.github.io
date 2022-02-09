@@ -646,6 +646,16 @@ background-color: #fffdd0;
   flex-wrap: wrap;
 
 }
+.add{
+  background-color: #fffdd0;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px;
+	
+}
 
 
 
@@ -696,6 +706,11 @@ input[type=submit]:hover {
   background-color: #fffdd0;
   width: 100%;
 }
+.roww{
+	
+}
+
+
 
 
 
