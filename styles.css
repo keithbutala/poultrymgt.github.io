@@ -565,8 +565,11 @@ background-color: #fffdd0;
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 300px;
+  padding: 2px;
+ }
+.column img{
+	width: 840px;
+	height: 1760px;
 }
 .info:after {
   content: "";
