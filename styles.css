@@ -553,6 +553,15 @@ background-color: #fffdd0;
   background-color: #fffdd0;
   width: 100%;
 }
+.people{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fffdd0;
+  width: 100%;
+  border: solid #ccc 2px;
+  padding : 10px;
+}
 .column {
   float: left;
   width: 33.33%;
@@ -573,9 +582,16 @@ background-color: #fffdd0;
 
 /* testimonials */
 
+.testimonial_container{
+	background-color: #fffdd0;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
 .container {
   border: 2px solid #ccc;
-  background-color: #fffdd0;
+  background-color: #fff;
   border-radius: 5px;
   padding: 16px;
   margin: 16px 0
