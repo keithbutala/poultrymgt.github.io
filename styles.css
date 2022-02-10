@@ -712,6 +712,60 @@ input[type=submit]:hover {
 
 
 
+.wrapper {
+ width: 100%;
+ margin: 50px auto;
+ border: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+ .header {
+ margin: 40px 0px 20px 0px;}
+ .entry {
+ width: 320px;
+ float: left;
+ margin: 10px;
+ height: 400px;
+}
+ figure {
+ display: block;
+ width: 350px;
+ height: 300px;
+ 
+ padding: 9px;
+ text-align: left;}
+ figure img {
+ width: 200px;
+ height: 250px;
+ border: 1px solid #d6d6d6;}
+ figcaption {
+ 
+ padding-left: 20px;
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .entry  {
+    flex: 1 0 33.3%;
+    max-width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .entry {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .entry {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+
 
 
 /* Footer CSS */
