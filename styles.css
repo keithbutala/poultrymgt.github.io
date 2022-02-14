@@ -1023,3 +1023,30 @@ input[type=text] {
   margin-bottom: 5rem;
   font-size: 2.5rem;
 }
+.com {
+  float: left;
+  padding: 5px;
+  margin: 2px;
+  border: 5px;
+  
+}
+.low{
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: 5px;
+}
+/* Clearfix (clear floats) */
+.low::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .com {
+    width: 100%;
+  }
+}
+
