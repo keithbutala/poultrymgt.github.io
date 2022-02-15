@@ -1025,15 +1025,15 @@ input[type=text] {
 }
 .com {
   float: left;
-  padding: 5px;
-  margin: 2px;
+  padding: 10px;
+  margin: 5px;
   border: 5px;
   
 }
 .low{
   width: 100%;
-  padding: 10px;
-  margin: 5px;
+  padding: 15px;
+  margin: 10px;
   border: 5px;
 }
 /* Clearfix (clear floats) */
